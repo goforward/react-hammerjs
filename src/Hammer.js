@@ -99,7 +99,7 @@ var HammerComponent = React.createClass({
 	},
 
 	componentDidMount: function () {
-		this.hammer = new Hammer(ReactDOM.findDOMNode(this));
+		this.hammer = new Hammer(ReactDOM.findDOMNode(this), this.props.options);
 		updateHammer(this.hammer, this.props);
 	},
 
