@@ -99,7 +99,7 @@ var HammerComponent = React.createClass({
 	},
 
 	componentDidMount: function () {
-		let options = {}
+		var options = {}
 		options.inputClass = this.props.options && this.props.options.inputClass ?
 			this.props.options.inputClass : Hammer.TouchMouseInput
 		this.hammer = new Hammer(ReactDOM.findDOMNode(this), options);
