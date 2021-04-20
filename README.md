@@ -99,3 +99,4 @@ Disabled events are detailed in the hammer.js api documentation:
 # License
 
 MIT Licensed. Copyright (c) Jed Watson 2016.
+
